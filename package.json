@@ -1,0 +1,43 @@
+{
+  "name": "react-flag-cdn",
+  "version": "0.0.1",
+  "description": "A lightweight React component to render flags based on ISO 3166 country code",
+  "main": "./lib/Flag.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.16.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.16.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@rollup/plugin-babel": "^5.2.2",
+    "autoprefixer": "^10.4.2",
+    "react-proptypes": "^1.0.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-styles": "^3.14.1",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "keywords": [
+    "react",
+    "flags",
+    "cdn",
+    "svg",
+    "png",
+    "jpg"
+  ],
+  "author": "David Harvey",
+  "license": "MIT"
+}
