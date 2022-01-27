@@ -1,16 +1,16 @@
 {
   "name": "react-flag-cdn",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A lightweight React component to render flags based on ISO 3166 country code",
-  "main": "./lib/Flag.js",
+  "main": "dist/index.cjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
   },
   "peerDependencies": {
-    "prop-types": "^15.6.0",
-    "react": "^17.0.2",
-    "react-dom": "^16.0.0"
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "dependencies": {
     "@babel/runtime": "^7.16.7"
