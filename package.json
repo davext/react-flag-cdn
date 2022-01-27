@@ -40,7 +40,9 @@
     "cdn",
     "svg",
     "png",
-    "jpg"
+    "jpg",
+    "flagcdn",
+    "flags cdn"
   ],
   "author": "David Harvey",
   "license": "MIT"
