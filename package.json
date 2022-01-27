@@ -9,11 +9,15 @@
   },
   "peerDependencies": {
     "prop-types": "^15.6.0",
-    "react": "^16.0.0",
+    "react": "^17.0.2",
     "react-dom": "^16.0.0"
   },
   "dependencies": {
     "@babel/runtime": "^7.16.7"
+  },
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/davext/react-flag-cdn.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
